@@ -1,0 +1,8 @@
+.Header {
+  width: 100vw;
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/splash-index.png");
+  background-size: cover;
+  background-position: center;
+}

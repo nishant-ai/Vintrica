@@ -1,0 +1,47 @@
+.DescContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60vh;
+  padding: 5vh 5vw;
+}
+
+.LeftSection {
+  flex: 0.5;
+  margin: 0 7vw;
+}
+
+.Title {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.Description {
+  font-weight: 300;
+  font-size: 17px;
+  margin: 2vh 0;
+}
+
+.Feature {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 300;
+  list-style: none;
+  margin-bottom: 1vh;
+  color: #008000;
+}
+
+.RightSection {
+  display: flex;
+  flex: 0.5;
+}
+
+.SplashImage {
+  height: 300px;
+}
+
+.CheckSign {
+  height: 25px;
+  margin-right: 2vw;
+}

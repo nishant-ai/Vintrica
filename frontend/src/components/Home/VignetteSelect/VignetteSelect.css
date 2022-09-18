@@ -1,0 +1,40 @@
+.VignetteSelectContainer {
+  height: 52vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 300;
+  padding: 0 10vw;
+}
+
+.SelectVignette {
+  display: flex;
+  width: fit-content;
+  border-radius: 3px;
+  align-items: flex-start;
+  border: 5px solid #fb923c;
+}
+
+.Tagline {
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+}
+
+.SecurityLine {
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+}
+
+.LockIcon {
+  color: #00c500;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.Country {
+  font-size: 14px;
+  width: 20vw;
+  border: 7px solid #fb923c;
+  cursor: pointer;
+}

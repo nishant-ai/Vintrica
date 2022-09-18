@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 0.25rem 0.25rem;
+}
+
+.logo {
+  height: 1.125rem;
+  margin-left: 19rem;
+  cursor: pointer;
+}
+
+.navItems {
+  display: flex;
+  align-items: center;
+  /* padding: 0 12rem; */
+  margin-left: 40rem;
+  padding: 10px;
+}
+
+.money {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  width: 3rem;
+  color: rgb(141, 137, 137);
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.flag {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  width: 2rem;
+  cursor: pointer;
+}
+
+.flag img {
+  height: 1.5rem;
+  width: 1.5rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-left: 0.2rem;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  width: 3rem;
+  cursor: pointer;
+}
+
+.cart img {
+  height: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+.dialogue {
+  position: absolute;
+  margin-left: 40rem;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  height: 10rem;
+  width: 6rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.greenBox1 img {
+  height: 3rem;
+  margin-left: 1rem;
+}
+
+.country {
+  width: 40vw;
+  left: 2rem;
+}
+
+.SecurityLine {
+  margin-top: 3vh;
+  display: flex;
+  align-items: center;
+  margin-left: 19vw;
+  font-weight: lighter;
+  margin-bottom: 8vh;
+}
+
+.LockIcon {
+  color: #00c500;
+  height: 20px;
+  margin-right: 5px;
+}
